@@ -1,0 +1,36 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "name": "test",
+            "path": "./TEST"
+        },
+        {
+            "name": "user",
+            "path": "./USER"
+        },
+        {
+            "name": "name",
+            "path": "./NAME"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/.git": true,
+            "name": true,
+            "user": true
+        },
+        "objectscript.conn": {
+            "active": true,
+            "host": "localhost",
+            "port": 52773,
+            "username": "_SYSTEM",
+            "password": "sistema",
+            "https": false,
+            "links": {}
+        },
+        "objectscript.conn.active": true
+    } 
+}
